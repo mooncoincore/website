@@ -1,0 +1,39 @@
+/*
+Theme Name: Mooncoin
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Simon van der Leek
+Author URI: http://www.mooncoin.com
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:
+#top #header .av-main-nav > li > a {
+font-weight: normal !important;
+}
+
+#top .av-flex-placeholder {
+    display: table-cell;
+    width: 2%;
+}
+
+body{
+font-family:'Work Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight:300;
+}
+
+*/
+
+.special_amp {
+    font-family: sans-serif;
+    font-size: inherit!important;
+    font-style: inherit;
+    font-weight: lighter!important;
+    color: inherit!important;
+}
+
+.main_color .av-milestone-icon-wrap:after {
+	border-color:#ffffff !important;
+	}

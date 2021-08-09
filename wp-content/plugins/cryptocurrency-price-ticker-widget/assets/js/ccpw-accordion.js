@@ -1,0 +1,8 @@
+jQuery(document).ready(function(c) {
+    c(".ccpw-container.price-block").each(function(i) {
+     c(this).find(".style-1 .ccpw-coin-accordion-dropdown:first").show(), c(this).find(".style-1 .ccpw-coin-price:first").toggle(), c(this).find(".ccpw-main-accordion.style-1:first").addClass("active"), c(this).find(".style-1 .fa:first").removeClass("fa-fw fa-chevron-down"), c(this).find(".style-1 .fa:first").addClass("fa-fw fa-chevron-up")
+    }), c(".ccpw-main-accordion").on("click", function(i) {
+     if (i.preventDefault(), c(this).hasClass("active")) return c(this).find(".ccpw-coin-price").show(), c(this).find(".ccpw-coin-accordion-dropdown").slideUp(), c(this).find(".fa").addClass("fa-fw fa-chevron-down"), c(this).find(".fa").removeClass("fa-fw fa-chevron-up"), void c(this).removeClass("active");
+     c(this).parent(".ccpw-container.price-block").find(".ccpw-coin-price").show(), c(this).parent(".ccpw-container.price-block").find(".ccpw-coin-accordion-dropdown").slideUp(), c(this).parent(".ccpw-container.price-block").find(".fa").removeClass("fa-fw fa-chevron-up"), c(this).parent(".ccpw-container.price-block").find(".fa").addClass("fa-fw fa-chevron-down"), c(this).parent(".ccpw-container.price-block").find(".ccpw-main-accordion").removeClass("active"), c(this).find(".ccpw-coin-price").hide(), c(this).find(".ccpw-coin-accordion-dropdown").slideDown(), c(this).find(".fa").addClass("fa-fw fa-chevron-up"), c(this).find(".fa").removeClass("fa-fw fa-chevron-down"), c(this).addClass("active")
+    })
+   });

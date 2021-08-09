@@ -1,0 +1,107 @@
+/*
+	Hold Block Editor stylings for admin area
+
+    Created on : 13.11.2019, 17:28:10
+    Author     : günter
+*/
+
+.block-editor-page #wpbody-content .wc-block-all-reviews,
+.block-editor-page #wpbody-content .wc-block-reviews-by-category,
+.block-editor-page #wpbody-content .wc-block-featured-product,
+.block-editor-page #wpbody-content .wc-block-featured-category,
+.block-editor-page #wpbody-content .wc-block-grid,
+.block-editor-page #wpbody-content .wc-block-product-categories{
+	font: 16px/1.65em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.block-editor-page #wpbody-content .wc-block-featured-product__wrapper p,
+.block-editor-page #wpbody-content .wc-block-featured-product__wrapper h2,
+.block-editor-page #wpbody-content .wc-block-featured-category__wrapper h2,
+.block-editor-page #wpbody-content .wc-block-featured-product__wrapper .block-editor-block-list__block,
+.block-editor-page #wpbody-content .wc-block-featured-category__wrapper .block-editor-block-list__block{
+	background: transparent;
+	color: #fff;
+}
+
+.block-editor-page #wpbody-content .wc-block-featured-product__wrapper h2,
+.block-editor-page #wpbody-content .wc-block-featured-category__wrapper h2{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.block-editor-page #wpbody-content .wc-block-all-reviews select{
+	width: 140px;
+	padding: 2px;
+	line-height: 28px;
+	height: 28px;
+	font-size: inherit;
+	font-weight: 600;
+}
+
+.block-editor-page #wpbody-content div.wc-block-review-list-item__rating__stars{ 
+	font-family: star; 
+}
+
+.block-editor-page #wpbody-content .wc-block-all-reviews a, 
+.block-editor-page #wpbody-content .wc-block-reviews-by-category a{ 
+	text-decoration: none;
+}
+
+.block-editor-page #wpbody-content .wc-block-grid li{
+	margin-bottom: 24px;
+}
+
+.block-editor-page #wpbody-content .wc-block-grid li .wp-block-button a,
+.block-editor-page #wpbody-content .wc-block-featured-product__wrapper .wp-block-button:not(.is-style-default):not(.is-style-outline) .wp-block-button__link,
+.block-editor-page #wpbody-content .wc-block-featured-category__wrapper .wp-block-button:not(.is-style-default):not(.is-style-outline) .wp-block-button__link,
+.block-editor-page #wpbody-content .wc-block-load-more .wp-block-button__link{
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin: 3px 0;
+	line-height: 1.2em;
+	position: relative;
+	font-weight: normal;
+	text-align: center;
+	max-width: 100%;
+}
+
+
+.block-editor-page #wpbody-content .wc-block-grid .wc-block-grid__product-price{
+	font-weight: 700;
+	display: inline;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.block-editor-page #wpbody-content .wc-block-grid .wc-block-grid__product-price del{
+	text-decoration: line-through;
+	font-weight: normal;
+}
+.block-editor-page #wpbody-content .wc-block-grid .wc-block-grid__product-price ins{
+	text-decoration: none;
+}
+
+.block-editor-page #wpbody-content .wc-block-grid .wp-block-button{
+	display: block;
+}
+
+.block-editor-page #wpbody-content .wc-block-product-categories .wc-block-product-categories__dropdown select{
+	width: 180px;
+	height: 40px;
+}
+
+.block-editor-page #wpbody-content .wc-block-product-categories .wc-block-product-categories__button{
+	height: 40px;
+}
+
+.block-editor-page #wpbody-content .wc-block-order-select__label{
+	font-size: 0.8em;
+}

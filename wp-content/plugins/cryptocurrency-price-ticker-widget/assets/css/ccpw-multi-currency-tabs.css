@@ -1,0 +1,147 @@
+/*-----MULTICURRENCY TAB CSS START--------*/
+.mtab_ i.fa.fa-caret-up,
+.mtab_ i.fa.fa-caret-down {
+    font-size: 1.25em;
+    margin: 0 3px 0 1px;
+}
+
+.currency_tabs {
+	display: inline-block;
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: 480px;
+	padding: 0;
+	margin: 5px auto;
+	border-radius:8px;
+	overflow:hidden;
+}
+
+.currency_tabs ul li:after,
+.currency_tabs ul li:before {
+	display: none
+}
+
+.currency_tabs ul.multi-currency-tab,
+.currency_tabs ul.multi-currency-tab-content {
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+
+.currency_tabs ul.multi-currency-tab li {
+	display: inline;
+	cursor: pointer;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 5px;
+	text-align: center;
+	border: 0px;
+	margin: 0!important;
+	white-space: nowrap;
+	float: left;
+	font-size: 15px;
+	max-height: 34px
+}
+
+.currency_tabs ul.multi-currency-tab li.active-tab {
+	border-bottom: 0;
+	font-weight: 700;
+	position: relative;
+}
+
+.currency_tabs ul.multi-currency-tab-content li {
+	padding: 10px;
+	margin: 0;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.currency_tabs .mtab-content {
+	display: inline-block;
+	font-size: 14px;
+	width: 100%
+}
+
+.tab-price-area {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    text-align: left;
+    min-width: 170px;
+}
+
+.currency_tabs .mtab-content .mtab_price {
+	display: inline-block;
+	margin: 0 5px;
+	font-weight: 700;
+	font-size: 1.2em
+}
+
+.currency_tabs span.mtab_icon {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.currency_tabs span.mtab_icon img {
+	vertical-align: top
+}
+
+.currency_tabs .mtab-content span.mtab_.down {
+	color: red
+}
+
+.currency_tabs .mtab-content span.mtab_.up {
+	color: green
+}
+
+.currency_tabs .mtab-content span.mtab_.down,
+.currency_tabs .mtab-content span.mtab_.up {
+	white-space: nowrap;
+	float: right
+}
+
+.widget .currency_tabs .mtab-content span.mtab_.down,
+.widget .currency_tabs .mtab-content span.mtab_.up {
+	font-size: 12px!important
+}
+
+.widget .currency_tabs .mtab-content,
+.widget .currency_tabs ul.multi-currency-tab li {
+	font-size: 13px
+}
+
+.widget .currency_tabs ul.multi-currency-tab li {
+	max-height: 31px
+}
+.widget .tab-price-area {
+    min-width: 100%;
+    margin-top:5px;
+}
+
+@media only screen and (max-width:500px) {
+	.currency_tabs .mtab-content span.mtab_.down,
+	.currency_tabs .mtab-content span.mtab_.up {
+		font-size: 12px!important
+	}
+	.currency_tabs .mtab-content,
+	.currency_tabs ul.multi-currency-tab li {
+		font-size: 13px
+	}
+	.widget .currency_tabs ul.multi-currency-tab li {
+		max-height: 31px
+    }
+    .tab-price-area {
+        min-width: 100%;
+        margin-top:5px;
+    }
+}
+/*-----MULTICURRENCY TAB CSS END--------*/

@@ -1,0 +1,157 @@
+/*-----News Ticker / Marquee CSS START--------*/
+.ccpw-ticker-cont.ccpw-news-ticker {
+	width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 19999999;
+	border: 0;
+	position:relative;
+	vertical-align:middle;
+}
+
+.ccpw-footer-ticker-fixedbar.ccpw-news-ticker,
+.ccpw-header-ticker-fixedbar.ccpw-news-ticker {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	font-family: inherit;
+}
+
+.ccpw-header-ticker-fixedbar.ccpw-news-ticker {
+	top: 0!important;
+	bottom: inherit!important;
+}
+
+.ccpw-footer-ticker-fixedbar.ccpw-news-ticker {
+	bottom: 0!important;
+	top: inherit!important;
+}
+
+.ccpw-news-ticker .tickercontainer {
+	height:auto;
+	overflow:hidden;
+	vertical-align:middle;
+	max-height:45px;
+}
+
+.ccpw-news-ticker .tickercontainer ul {
+	display: inline-block;
+    padding: 0;
+    float: left;
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	vertical-align:middle;
+}
+
+.ccpw-news-ticker .tickercontainer li {
+	float: left;
+	padding:6px 14px;
+    vertical-align:middle;
+    width:auto !important;
+}
+
+.ccpw-news-ticker .tickercontainer li:after {
+	content: " | ";
+	margin: 9px 0 0 18px
+}
+
+.ccpw-news-ticker .tickercontainer .ccpw-news a {
+	font-size: 14px;
+	font-weight: 400
+}
+
+/*News List*/
+.ccpw-container-rss-view {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+
+.ccpw-container-rss-view ul {
+	list-style: none;
+	padding: 10px;
+	margin: 0;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.ccpw-container-rss-view ul li.ccpw-news {
+    margin-bottom: 30px;
+    width:auto !important;
+}
+
+.ccpwp_Widget li.ccpw-news {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dddb3;
+	padding-bottom: 5px
+}
+
+.ccpw-news .feed-publish-date {
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 5px
+}
+
+.ccpwp_Widget .ccpw-news .feed-publish-date {
+	font-size: 11px
+}
+
+.ccpwp_Widget .ccpw-news .feed-publish-date span {
+	font-size: 10px
+}
+
+.ccpw-news .feed-publish-date span {
+	background: 0 0;
+	padding: 2px 4px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 700
+}
+
+.ccpw-news h2 {
+	font-size: 24px;
+	margin-bottom: 12px;
+	line-height: 1.4em
+}
+
+.ccpwp_Widget .ccpw-news h2 {
+	font-size: 15px;
+	margin-bottom: 8px
+}
+
+.ccpw-news a,
+.ccpw-news h2 a {
+	text-decoration: none;
+	box-shadow: none
+}
+
+.ccpw-news .rss-desc {
+	display: inline-block;
+	width: 100%;
+	font-size: 15px
+}
+
+.ccpwp_Widget .ccpw-news .rss-desc {
+	font-size: 12.5px
+}
+
+.ccpw-news .rss-desc img {
+	width: 25%;
+	height: auto;
+	padding: 2px;
+	border: 1px solid;
+	margin: 0 2% 0 0;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+	float: left
+}
+
+.ccpw-news .rss-desc p.news-desc {
+	display: block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top
+}

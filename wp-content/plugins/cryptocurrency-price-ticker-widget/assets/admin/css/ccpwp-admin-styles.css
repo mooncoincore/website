@@ -1,0 +1,25 @@
+
+span.select2.ui-sortable ul, span.select2.ui-sortable ul li, span.select2.ui-sortable ul li input {
+    width: auto !IMPORTANT;
+    display: inline-block !IMPORTANT;
+    min-width: 130px !IMPORTANT;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	width:100% !important;
+	border-color:red !Important;
+}
+.select2-container--default .select2-selection--multiple {
+	width:100% !important;
+}
+ul.cmb2-checkbox-list.cmb2-list li {
+    float: left;
+    width: 106px;
+}
+span.select2.ui-sortable ul {
+	min-height: 90px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+body span.select2.select2-container.select2-container--default.select2-container--below{
+	width: 100% !important;
+}

@@ -1,0 +1,509 @@
+
+/*
+	CSS specific for Custom Elements in backend
+	(ALB page and Modal Popup)
+
+    Created on : 07.01.2021, 11:36:18
+    Author     : guenter
+*/
+
+
+/*	ALB page specific	*/
+
+body.post-type-alb_elements.post-new-php .av-builder-note.av-notice-element-templates-cache{
+	display: none;
+}
+
+body.post-type-alb_elements .av-builder-note.av-notice-element-templates-cache strong{
+	font-weight: 800;
+}
+
+body.post-type-alb_elements #avia-builder-button,
+body.post-type-alb_elements .avia-template-save-button-container,
+body.post-type-alb_elements .avia-expand-button,
+body.post-type-alb_elements .avia-hotkey-info,
+body.post-type-alb_elements .avia-clone,
+body.post-type-alb_elements .avia-save-element,
+body.post-type-alb_elements .avia-toggle-visibility,
+body.post-type-alb_elements .avia-cell-layout-buttons{
+	display: none;
+}
+
+body.post-type-alb_elements:not(.avia-allow-cpt-screen) .page-title-action,
+body.post-type-alb_elements:not(.avia-allow-cpt-screen) #titlediv #edit-slug-box,
+body.post-type-alb_elements:not(.avia-allow-cpt-screen) #submitpost #publish,
+body.post-type-alb_elements:not(.avia-allow-cpt-screen) #submitpost #duplicate-action,
+body.post-type-alb_elements:not(.avia-allow-cpt-screen) #submitpost #delete-action{
+	display: none;
+}
+
+body.post-type-alb_elements #icl_div .avia-translate-cet-subitem
+{
+	width: 100%;
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+
+body.post-type-alb_elements .avia-change-col-size,
+body .element_template_selected .avia-change-col-size{
+	visibility: hidden;
+}
+
+body .element_template_selected .avia-col-size:before{
+	content: "\E824";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	vertical-align: middle;
+	padding: 0 6px 0 0;
+	color: #D54E21;
+}
+body .avia_layout_section.element_template_selected .avia_sorthandle:after{
+	content: "\E824";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	float: right;
+	padding: 4px 10px 0 0;
+	color: #D54E21;
+}
+
+body .avia_layout_section.element_template_selected:hover .avia_sorthandle:after{
+	padding-right: 55px;
+}
+
+ body .avia_sortable_element.element_template_selected .avia_sorthandle:after{
+/*
+	content: "\E824";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	float: right;
+	padding: 4px 25px 0 0;
+	color: #D54E21;
+	*/
+}
+
+#aviaLayoutBuilder .element_template_selected > .avia_inner_shortcode{
+	border-color: #9ac5ec;
+	background: #f5faff;
+}
+
+.shortcode_insert_button.avia-custom-element-button.avia-custom-element-item,
+.shortcode_insert_button.avia-custom-element-button.avia-custom-element-item:hover{
+	border-color: #4D9EDD;
+	cursor: default;
+	display: none;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked .shortcode_insert_button.avia-custom-element-item{
+	display: block;
+}
+
+.shortcode_button_wrap .av-custom-element-footer .av-custom-element-button{
+	margin: 5px 10px 5px 0;
+}
+
+.shortcode_button_wrap .av-custom-element-select-buttons{
+	width: 250px;
+	float: left;
+	margin: 5px 0;
+	display: none;
+}
+
+.shortcode_button_wrap .av-custom-element-footer .element-button-end-edit,
+.shortcode_button_wrap.avia-edit-elements-clicked .element-button-add-new,
+.shortcode_button_wrap.avia-edit-elements-clicked .element-button-edit{
+	display: none;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked .element-button-end-edit,
+.shortcode_button_wrap.avia-edit-elements-clicked .av-custom-element-select-buttons{
+	display: inline-block;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked.av-sc-buttons-custom-base-only .avia-custom-element-item,
+.shortcode_button_wrap.avia-edit-elements-clicked.av-sc-buttons-custom-item-only .avia-custom-element-base{
+	display: none;
+}
+
+.shortcode_button_wrap .avia-custom-elements-actions-overlay{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+}
+
+.shortcode_button_wrap .element-sc-action-button{
+	display: none;
+	position: relative;
+	z-index: 250;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	background-color: #fff;
+	top:-1px;
+	border:1px solid #e1e1e1;
+}
+
+.shortcode_button_wrap .element-sc-action-button span{
+	background-color: transparent;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked .avia-select-shortcode-type-dropdown-container,
+.shortcode_button_wrap.avia-edit-elements-clicked .avia-alb-tab{
+	display: none;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked .shortcode_insert_button:hover{
+	cursor: default;
+}
+
+.shortcode_button_wrap.avia-edit-elements-clicked .shortcode_insert_button:hover .element-sc-action-button,
+.shortcode_button_wrap.avia-edit-elements-clicked.show-action-buttons .shortcode_insert_button .element-sc-action-button{
+	display: block;
+	cursor: pointer;
+}
+
+.shortcode_button_wrap .element-sc-action-button.element-edit{
+	float: left;
+	color: #0c7cba;
+	left:-1px;
+}
+
+.shortcode_button_wrap .element-sc-action-button.element-delete{
+	float: right;
+	color: #d54e21;
+	right:-1px;
+}
+
+.shortcode_button_wrap .element-sc-action-button.element-clone{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #ffcc33;
+	visibility: hidden;
+}
+
+.shortcode_button_wrap .element-sc-action-button.element-custom-action{
+	color: #51c851;
+	margin-top: 39px;
+}
+
+.shortcode_button_wrap .avia-custom-elements-actions-overlay .avia-sc-button-loading.loading{
+	visibility: visible;
+}
+
+.avia_layout_builder_custom_elements,
+.avia_layout_builder_custom_elements .avia_alb_custom_elements{
+	display: none;
+}
+
+.avia_layout_builder_custom_elements .aviaALBCustomElementShortcodeHeadline{
+	color: #D54E21;
+	font-weight: 800;
+}
+
+.testmode .avia_layout_builder_custom_elements,
+.avia_mode_debug .avia_layout_builder_custom_elements{
+	display: block;
+	padding: 0 10px;
+}
+
+.avia_alb_custom_elements{
+	min-height: 200px;
+	background: white;
+	padding: 40px 11px;
+	/*border: 1px solid #E1E1E1;*/
+	border: 1px solid #D54E21;
+	float:left;
+	position: relative;
+	width: 100%;
+	left: -12px;
+	top: 9px;
+}
+
+#aviaALBCleanDataCustomElements{
+	width:100%;
+	height:300px;
+	margin: 0 0 15px 0;
+	border-color: #D54E21;
+	/*display:none;*/
+}
+
+
+body.post-type-alb_elements .avia-edit-element{
+	left: 0;
+}
+
+body.post-type-alb_elements #avia_builder.element-added .shortcode_button_wrap,
+body.post-type-alb_elements #avia_builder.element-added #avia-sort-list-dropdown,
+body.post-type-alb_elements #avia_builder.element-added .avia-hotkey-info,
+body.post-type-alb_elements.post-php #avia_builder.element-added #aviaLayoutBuilder .avia-delete{
+	display: none;
+}
+
+body.post-type-alb_elements.post-php.avia-no-terms #avia_builder.element-added #aviaLayoutBuilder .avia-delete{
+	display: block;
+}
+
+/*	do not allow to add/edit custom elements in fullscreen mode	*/
+#avia_builder .avia-fixed-controls .av-custom-element-footer{
+	display: none;
+}
+
+
+/*	Modal Popup specific */
+
+.avia-modal .avia-form-element-container.av-lock-element-before{
+	padding-bottom: 0;
+	border:none;
+}
+
+.avia-modal .avia-form-element-container.av-lock-element-checkbox input[type="checkbox"],
+.avia-modal .avia-form-element-container.av-lock-element-checkbox input[type="checkbox"]:focus{
+	border: 0px none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.avia-modal .avia-form-element-container.av-lock-element-checkbox input[type="checkbox"]:before {
+	content: "\E825";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	color: #999;
+	margin:0;
+	width: auto;
+	float: none;
+	height: auto;
+	vertical-align: text-bottom;
+}
+
+.avia-modal .avia-form-element-container.av-lock-element-checkbox input[type="checkbox"]:checked:before {
+	content: "\E824";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	color: #D54E21;
+	margin: 0;
+}
+
+.avia-modal .avia-modal-inner .av-lock-element-checkbox label{
+	font-weight: normal;
+	color: #999;
+}
+
+.avia-modal .avia-modal-inner .av-lock-element-checkbox label:hover{
+	color: #0071a1;
+}
+
+.avia-modal .avia-form-element-container.av-lock-element-checkbox .avia-locked-info{
+	font-weight: 400;
+}
+
+.avia-modal .avia-form-element-container .avia-locked-data-hide,
+.avia-modal .avia-form-element-container.avia-tab-container a.avia-locked-data-hide.avia-custom-label{
+	position: absolute;
+	top: -1000px;
+	left: -2000px;
+}
+
+.avia-modal .avia-form-element-container .avia-locked-data-value,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-tab-container .avia-modal-locked{
+	border-style: groove;
+	border-color: #D54E21;
+}
+
+.avia-modal .avia-form-element-container.av-lock-element-checkbox.avia-locked-input-element{
+	display: none;
+}
+
+.avia-modal .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-clone{
+	display: block;
+}
+
+.avia-modal.avia-edit-item-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-add,
+.avia-modal.avia-edit-item-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-clone,
+.avia-modal.avia-edit-item-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-move-handle,
+.avia-modal.avia-edit-item-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-delete,
+.avia-modal.avia-edit-item-template .avia-form-element-container.avia-element-modal_group .avia-modal-group-wrapper .avia-element-multi_image a.button{
+	display: none;
+}
+
+.avia-modal.avia-base-shortcode.avia-edit-item-template .avia-hide-on-edit-item-template,
+.avia-modal.avia-modal-group-shortcode.avia-edit-base-template .avia-hide-on-edit-base-template.av-lock-element-checkbox{
+	display: none;
+}
+
+body.avia-subitem-one-element .avia-modal.avia-modal-group-shortcode.avia-edit-base-template .avia-hide-on-edit-base-template.av-lock-element-checkbox:not(.avia-hidden){
+	display: block;
+}
+
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-add,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-clone,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-move-handle,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.av-select-element-template .avia-modal-group-wrapper .avia-delete,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.av-elements-item-select,
+body.avia-subitem-one-element .avia-modal.avia-edit-item-template .avia-form-element-container.av-elements-item-select,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.avia-element-modal_group + .av-lock-element-checkbox,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-form-element-container.avia-element-modal_group .avia-modal-group-wrapper .avia-element-multi_image a.button{
+	display: none;
+}
+
+body.avia-subitem-one-element .avia-modal.avia-modal-edit-alb-element.avia-modal-group-shortcode .avia-form-element-container.avia-element-template-select,
+body.avia-subitem-one-element .avia-modal.avia-modal-edit-alb-element.avia-modal-group-shortcode .avia-form-element-container.avia-element-new-from-alb-button{
+	display: none;
+}
+
+body.avia-subitem-no-element .avia-modal.avia-edit-base-template .avia-form-element-container.avia-element-modal_group,
+body.avia-subitem-no-element .avia-modal.avia-modal-group-shortcode .avia-form-element-container.avia-element-template-select,
+body.avia-subitem-no-element .avia-modal.avia-modal-group-shortcode .avia-form-element-container.avia-element-new-from-alb-button{
+	display: none;
+}
+
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template.avia-modal-group-shortcode .avia-form-element-container.avia-element-template-select,
+body.avia-subitem-no-element .avia-modal.avia-edit-base-template.avia-modal-group-shortcode .avia-form-element-container.avia-element-template-select,
+body.avia-custom-elements-non-hierarchical .avia-modal.avia-modal-edit-custom-element .avia-form-element-container.avia-element-template-select,
+body.avia-subitem-one-element .avia-modal.avia-modal-edit-custom-element.avia-edit-base-template .avia-form-element-container.avia-element-template-select,
+body.avia-subitem-one-element .avia-modal.avia-edit-base-template .avia-element-modal_group .avia-modal-group-element:nth-child(n+2){
+	display: none;
+}
+
+
+/*	When creating item tempates only first element will be used, others are ignored	*/
+.avia-modal.avia-edit-item-template .avia-modal-group .avia-modal-group-element:nth-child(n+2){
+	display: none;
+}
+
+
+
+.avia-modal.av-no-element-template .avia-element-show-locked-options-container{
+	display: none;
+}
+
+.avia-modal.show-locked-input-element .avia-form-element-container.avia-locked-input-element:not(.avia-hidden){
+	display: block;
+}
+
+.avia-modal .avia-form-element-container.avia-locked-input-element,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-multi_input{
+	display: none;
+}
+
+.avia-modal .avia-form-element-container.avia-locked-input-element.av-lock-element-checkbox{
+	display: none !important;
+}
+
+
+/*	Special case for icon switcher - always show locked input elements as hiding switcher is buggy 	*/
+.avia-modal .avia-modal-iconswitcher-container.avia-form-element-container  .avia-form-element-container.avia-locked-input-element{
+	display: block;
+}
+
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-image .avia-builder-image-insert,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-image .avia-delete-image,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-gallery .avia-builder-image-insert,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-gallery .avia-delete-image,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-video .avia-builder-image-insert,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-video .avia-delete-image{
+	display: none;
+}
+
+
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-image .avia-builder-prev-img-container img:hover,
+.avia-modal .avia-form-element-container.avia-locked-input-element.avia-element-gallery .avia-builder-prev-img-container img:hover,
+#wpwrap .avia-modal .avia-form-element-container.avia-locked-input-element.av-hotspot-container .av-image-hotspot_inner:hover,
+.avia-modal .avia-form-element-container.avia-locked-input-element .avia-modal-group-element-inner:hover{
+	cursor: default;
+}
+
+body.avia-modal-hide-locked-input-fields .avia-modal .avia-form-element-container.avia-locked-input-element,
+body.avia-modal-hide-locked-input-fields .avia-modal.show-locked-input-element .avia-form-element-container.avia-locked-input-element{
+	display: none;
+}
+
+body.avia-modal-hide-element-show-locked-options .avia-modal .avia-element-show-locked-options-container{
+	display: none;
+}
+
+.avia-modal.no-custom-element-editing-allowed .el-template-container,
+.avia-modal.no-custom-element-editing-allowed .avia-element-show-locked-options-container,
+.avia-modal.no-custom-element-editing-allowed .avia-form-element-container.av-lock-element-checkbox{
+	display: none !important;
+}
+
+.avia-modal .avia-lock-sympol:before{
+	content: "\E824";
+	font-family: 'entypo-fontello';
+	font-size: 17px;
+	vertical-align: middle;
+	padding: 0 6px 0 0;
+	color: #D54E21;
+}
+
+.avia-modal .av-lock-element-checkbox .avia-name-description > label{
+	padding-left: 22px;
+}
+
+.avia-modal .av-lock-element-checkbox{
+	border-bottom: 1px dashed #e1e1e1;
+	padding-bottom: 20px;
+}
+
+.avia-modal .av-lock-element-checkbox:hover{
+	background: transparent;
+}
+
+.avia-modal .avia-locked-data-value.avia_textblock{
+	padding: 8px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+.avia-modal.hide-save-button .avia-modal-inner-footer .button{
+	display: none;
+}
+
+.avia-modal.disable-save-button .avia-modal-inner-footer .button{
+	opacity: 50%;
+	background-color: #ccc;
+	border-color: #aaa;
+}
+
+.avia-modal.disable-save-button .avia-modal-inner-footer .button:hover{
+	cursor: default;
+}
+
+.avia-modal.loading .avia-modal-inner-footer .avia_loading{
+	visibility: visible;
+}
+
+.avia-modal.avia-create-new-custom-element .av-title-warning-message{
+	color: #D54E21;
+	font-weight: 800;
+}
+
+.avia-modal .avia-form-element-container.avia-element-edit-cpt-button,
+.avia-modal .avia-form-element-container.avia-element-new-from-alb-button{
+	display: none;
+}
+
+.avia-modal.avia-modal-edit-alb-element .avia-form-element-container.avia-element-new-from-alb-button,
+.avia-modal.avia-modal-edit-custom-element.avia-modal-group-shortcode.avia-edit-item-template .avia-form-element-container.avia-element-edit-cpt-button,
+.avia-modal.avia-modal-edit-custom-element.avia-base-shortcode.avia-edit-base-template .avia-form-element-container.avia-element-edit-cpt-button,
+.avia-modal.avia-modal-edit-custom-element.avia-base-shortcode:not(.avia-edit-item-template):not(.avia-edit-base-template) .avia-form-element-container.avia-element-edit-cpt-button{
+	display: block;
+}
+
+.avia-modal.modal-autoclose .avia-modal-inner-header a.avia-modal-close,
+.avia-modal.modal-autoclose .avia-modal-inner-footer a.button{
+	visibility: hidden;
+}
+
+.av-custom-element-footer.av-custom-element-buttons {
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+	background: #fcfcfc;
+	position: relative;;
+	top: -1px;
+	padding: 5px 10px;
+}

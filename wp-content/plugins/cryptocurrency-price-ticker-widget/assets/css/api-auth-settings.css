@@ -1,0 +1,41 @@
+.cool_timeline-notice-red {
+    color: red;
+    font-weight: bold;
+}
+.cool_timeline-notice-green {
+    color: green;
+    font-weight: bold;
+}
+.license-warning.notice-error {
+    background: #fffcda;
+}
+
+
+
+/* Loading spinner for 'uninstall license' button */
+.cool_timeline-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+.cool_timeline-loading:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 5px solid #d02424;
+    border-color: #f7931a transparent #c40000 transparent;
+    animation: cool_timeline-loading 1.2s linear infinite;
+}
+  @keyframes cool_timeline-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* End of loading spinner css */

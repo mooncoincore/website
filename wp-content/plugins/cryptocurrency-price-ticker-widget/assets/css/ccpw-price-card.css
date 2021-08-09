@@ -1,0 +1,536 @@
+/*-----Price Card CSS START--------*/
+.price-card {
+	display: inline-block;
+	width: 100%
+}
+
+.price-card .cardtop-area {
+	display: inline-block;
+	clear: both;
+	float: inherit;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.price-card .coin-container {
+	margin: 8px 0
+}
+
+.price-card .ccpw-card-body {
+	padding: 6px;
+	box-shadow: 1px 1px 3px -1px #252525;
+	position: relative;
+    overflow: hidden;
+	font-size:14px;
+}
+
+.price-card .ccpw_icon {
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-right:8px;
+	width:52px;
+	height:52px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.price-card .ccpw_icon img {
+	width: 100% !important;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block
+}
+
+.price-card .price-area {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 18px;
+	z-index: 2;
+    position: relative;
+}
+
+.price-card .price-area .ccpw-name {
+	display:inline-block;
+}
+
+.price-card .ccpw-price {
+	text-align: center;
+	margin: 5px 0;
+	font-size: 16px
+}
+
+.price-card .ccpw-price span {
+	font-weight: bold;
+	font-size: 18px
+}
+
+.price-card .ccpw-changes span {
+	display:inline-block;
+	font-size: .85em
+}
+
+/*-------Style-1-------*/
+.price-card .style-1 .ccpw_icon {
+    position: absolute;
+    top: -11px;
+    left: -12px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 0;
+    overflow: hidden;
+	opacity:0.8;
+}
+
+.price-card .style-1:hover .ccpw_icon {
+	opacity:1;
+}
+
+.price-card .style-1 .price-area {
+	width:100%;
+	margin-bottom:8px;
+}
+
+.price-card .style-1 .price-area .ccpw-name {
+	width:100%;
+}
+
+.price-card .style-1 .price-area.full {
+	width: 100%;
+	font-size: 20px
+}
+
+.price-card .style-1 .price-area .ccpw-changes {
+	display: inline-block;
+	font-size: .85em
+}
+
+.price-card .style-1 .ticker-price {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+
+/*-------Style-2-------*/
+.price-card .style-2 .ccpw-card-body {
+    border-radius: 7px;
+}
+
+.price-card .style-2 .ccpw_icon {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.price-card .style-2 .name {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center
+}
+
+.price-card .style-2 .name.full {
+	width: 100%
+}
+
+.price-card .style-2 .name.full span.full-name {
+	font-size: 28px
+}
+
+.price-card .style-2 .market-data {
+	display: inline-block;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.price-card .style-2 .market-data .d-left {
+	width: 39%;
+	display: inline-block;
+	padding: 2px;
+	vertical-align: middle;
+	text-align:left;
+	font-size:12px;
+    font-weight:bold;
+    box-sizing: border-box;
+}
+
+.price-card .style-2 .market-data .d-right {
+	width: 59%;
+	display: inline-block;
+	padding: 2px;
+	vertical-align: middle;
+    font-size:14px;
+    box-sizing: border-box;
+}
+
+.price-card .style-2 .market-data .ccpw-cap,
+.price-card .style-2 .market-data .ccpw-supply,
+.price-card .style-2 .market-data .ccpw-vol {
+	border-bottom: 1px solid #ddd
+}
+
+.price-card .style-2 .market-data div:last-child {
+	border-bottom: 0!important
+}
+
+
+/*-------Style-3-------*/
+.price-card .style-3 .ccpw-card-body {
+	border-radius:5px;
+}
+
+.price-card .style-3 .ccpw_icon {
+    position: absolute;
+    top: -11px;
+    left: -12px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 0;
+    overflow: hidden;
+	opacity:0.8;
+}
+
+.price-card .style-3:hover .ccpw_icon {
+	opacity:1;
+}
+
+.price-card .style-3 .ccpw-card-title {
+	display: inline-block;
+	font-size: 32px;
+	width: 100%;
+	text-align: center;
+	line-height: 0.72em;
+	vertical-align: middle;
+	margin: 3px 0;
+	position:relative;
+	z-index:999;
+}
+
+.price-card .style-3 .ccpw-card-title.full {
+	width: 100%
+}
+
+.price-card .ccpw-card-title span.ccpw-card-subtitle {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: lighter
+}
+
+.price-card .style-3 .ccpw-price-changes {
+	margin: 0;
+	padding: 5px 0;
+	display: inline-block
+}
+
+.price-card .style-3 .ccpw-price-changes .ccpw-changes {
+	margin-right: 3px;
+	display: inline-block;
+	font-size: 14px;
+	padding-right: 3px;
+	border-right: 1px solid;
+	border-color: inherit
+}
+
+.price-card .style-3 .ccpw-price-changes .ccpw-changes:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0
+}
+
+.price-card .style-3 .ccpw-price-changes .ccpw-changes .changes-time-all {
+	padding: 2px;
+	border-radius: 2px;
+	font-weight: 700;
+	font-size: .8em;
+	line-height:1.5em;
+	width:92%;
+}
+
+
+/*-------Style-4-------*/
+.price-card .style-4 .ccpw-card-body {
+	text-align:center;
+}
+
+.price-card .style-4 .ccpw-name {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center
+}
+
+.price-card .style-4 .live-pricing {
+	text-align: center
+}
+
+.price-card .style-4 .ccpw-changes span {
+	font-size: 1em
+}
+
+.price-card .style-4 .live-pricing .live_p {
+	margin-right: 5px;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	clear: both;
+	width: 100%
+}
+
+.price-card .style-4 .live-pricing .live_c {
+	display: inline-block
+}
+
+.price-card .style-4 .live-pricing .live_t {
+	display: initial;
+	font-size: .6em;
+	vertical-align: middle;
+	font-weight: 700;
+	padding: 2px;
+	margin-left: 5px
+}
+
+.price-card .coin-container.style-4.price-plus .ccpw-card-body {
+	background-color: #8ee77e!important
+}
+
+.price-card .coin-container.style-4.price-minus .ccpw-card-body {
+	background-color: #ff8a77!important
+}
+
+.price-card .style-4 .live-pricing .up,
+.price-card .style-4.price-plus .live-pricing .live_p {
+	color: green
+}
+
+.price-card .style-4 .live-pricing .down,
+.price-card .style-4.price-minus .live-pricing .live_p {
+	color: red
+}
+
+
+
+/*-------Style-6-------*/
+.price-card .ccpw-card.style-6 .ccpw-card-chart {
+    width: 160px;
+    height: 45px;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+	min-width: calc(100% - 85px);
+    max-width: calc(100% - 90px);
+    margin-bottom: 8px;
+}
+
+.price-card .ccpw-card.style-6 .ccpw-card-chart .ccpw-chart-container {
+	height:100%;
+}
+
+.price-card .ccpw-card.style-6 .ccpw-card-chart.full {
+	width: 100%
+}
+
+.price-card .ccpw-card.style-6 .ccpw-card-chart img {
+	width: 100%;
+	height: 100%;
+	opacity: .9
+}
+
+.price-card .ccpw-card.style-6 .price-area {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 13px;
+}
+
+.price-card .ccpw-card.style-6 .price-area .ccpw-name {
+	width:100%;
+	display:inline-block;
+}
+
+.price-card .ccpw-card.style-6 .price-area .ccpw-changes {
+	display: inline-block;
+	font-size: .85em
+}
+
+.price-card .ccpw-card.style-6 .ticker-price {
+	width: calc(100% - 100px);
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 700
+}
+
+.ccpw_widget .price-card .ccpw-card.style-6 .price-area,
+.ccpw_widget .price-card .ccpw-card.style-6 .ticker-price {
+	width: 100%
+}
+
+.ccpw_widget .price-card .ccpw-card.style-6 .ticker-price {
+	font-size: 15px
+}
+
+.price-card .ccpw-card.style-6:hover .ccpw-card-chart img {
+	opacity: 1;
+	filter: invert(90)
+}
+
+
+
+
+
+
+span.ccpw-multilabel-name {
+	font-size: 22px
+}
+
+.ccpw-multilabel-prices {
+	display: inline-flex;
+	margin-left: 12px!important;
+	vertical-align: middle
+}
+
+.ccpw-multi-price-header {
+	text-align: center!important;
+	font-weight: 700;
+	font-size: 14px
+}
+
+.ccpw-multi-price-text {
+	padding: 0 7px;
+	font-size: 13px
+}
+
+.ccpw_widget span.ccpw-multilabel-name {
+	font-size: 18px
+}
+
+.ccpw_widget .ccpw-multilabel-prices {
+	margin-left: 8px!important
+}
+
+.ccpw_widget .ccpw-multi-price-text {
+	padding: 0 4px
+}
+
+.card-price-area {
+	width: 50%;
+	float: right;
+	font-size: 20px;
+	padding: 2px;
+	line-height: 33px
+}
+
+.style-5 .ccpw-card-body .changes-time.up {
+	background: green;
+	color: #fff;
+	border: 0;
+	border-radius: 3px;
+	font-size: .55em
+}
+
+.style-5 .ccpw-card-body .changes-time.down {
+	background: red;
+	color: #fff;
+	border: 0;
+	border-radius: 3px;
+	font-size: .55em
+}
+
+
+
+
+
+
+
+
+
+
+
+.price-card .changes_wrp.ccpw-card-text {
+	text-align: center
+}
+
+
+
+
+
+.price-card .changes-time {
+	display: initial;
+	font-size: 10px;
+	vertical-align: middle;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 1.5px;
+	margin-left: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+.price-card .ccpw-card.style-7 {
+	position: relative;
+	overflow: hidden
+}
+
+.price-card .ccpw-card.style-7 .ccpw_icon {
+	position: absolute;
+	opacity: .25;
+	left: -16px;
+	top: -10px;
+	z-index: 4;
+	width: 90px;
+	height: 90px
+}
+
+.price-card .ccpw-card.style-7:hover .ccpw_icon {
+	opacity: .8
+}
+
+@media only screen and (max-width:480px) {
+	.price-card .cardtop-area {
+		width: 100%
+	}
+}
+
+.multicard-price-area.full {
+	text-align: center;
+	position: relative;
+	z-index: 9
+}
+
+.multicard-price-area.full .ccpw-multicard-symbol {
+	font-size: 14px
+}
+
+.multicard-price-area.full .ccpw-multicard-name {
+	font-size: 16px;
+	font-weight: 700
+}
+
+.ccpw-multi-prices {
+	display: inline-flex;
+	width: 100%;
+	margin: 10px 0 0;
+	position: relative;
+	z-index: 9
+}
+/*-----Price Card CSS END--------*/

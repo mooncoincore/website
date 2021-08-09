@@ -1,0 +1,23 @@
+/* 
+	Leaflet Maps CSS
+
+    Created on : 01.03.2021, 15:14:04
+    Author     : guenter
+	since      : 4.8.2
+*/
+
+.avia-leaflet-map-container.avia-grayscale-25{
+	filter: grayscale(25%);
+}
+
+.avia-leaflet-map-container.avia-grayscale-50{
+	filter: grayscale(50%);
+}
+
+.avia-leaflet-map-container.avia-grayscale-75{
+	filter: grayscale(75%);
+}
+
+.avia-leaflet-map-container.avia-grayscale-100{
+	filter: grayscale(100%);
+}

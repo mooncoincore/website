@@ -1,0 +1,22 @@
+
+2021-03-17 v1.2.1 
+
+- added check for body class 'responsive-images-lightbox-support'
+- added scrset and sizes attribute to images: https://github.com/dimsemenov/Magnific-Popup/issues/553#issuecomment-129216543:
+	- line 1305ff:
+		img.srcset = item.el.find('img').attr('srcset');
+		img.sizes = item.el.find('img').attr('sizes');
+- added scrset and sizes attribute to galleries:
+	- line 1824ff:
+		if( item.el.length > 0 )
+		{ .......
+
+
+2021-01-12 v1.2.0
+
+- Replaced .click(function() with .on('click', function()
+- Replaced .isFunction() with 'function' === typeof 
+- Replaced .isArray with Array.isArray
+
+
+2021-01-12 forked from github as no longer supported there

@@ -1,0 +1,222 @@
+.ccpw_table.table>tbody>tr>td,
+.ccpw_table.table>thead>tr>th {
+    text-align: center;
+    vertical-align: middle
+}
+
+.ccpw_table.table {
+    border-collapse: inherit;
+    font-size: 15px;
+    border-spacing: 0;
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 3px rgba(11, 11, 11, .15);
+    padding: 1.5px 3px 3px 1.5px
+}
+
+.ccpw_table,
+.ccpw_table tr {
+    border: 0 !important
+}
+
+.ccpw_table.table>tbody>tr>td {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    position: relative
+}
+
+.ccpw_table.style-1.table>tbody>tr>td:nth-of-type(1),
+.ccpw_table.style-1.table>thead>tr>th:nth-of-type(1),
+.ccpw_table.style-2.table>tbody>tr>td:nth-of-type(1),
+.ccpw_table.style-2.table>thead>tr>th:nth-of-type(1),
+.ccpw_table.style-3.table>tbody>tr>td:nth-of-type(1),
+.ccpw_table.style-3.table>thead>tr>th:nth-of-type(1),
+.ccpw_table.style-4.table>tbody>tr>td:nth-of-type(1),
+.ccpw_table.style-4.table>thead>tr>th:nth-of-type(1),
+.ccpw_table.style-5.table>tbody>tr>td:nth-of-type(1),
+.ccpw_table.style-5.table>thead>tr>th:nth-of-type(1) {
+    text-align: left
+}
+
+.ccpw_table.table>tbody>tr:last-child>td {
+    border-bottom: 0 !important
+}
+
+.ccpw_table.table>thead>tr>th:last-child {
+    border-right: 0
+}
+
+.ccpw_table.table>thead>tr>th:first-child {
+    border-left: 0
+}
+
+.ccpw_table .ccpw_icon {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ccpw_table .ccpw_icon img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 22px;
+    width: 22px !important;
+    margin-right: 6px
+}
+
+.ccpw_table .list-vol,
+.ccpw_table .market_cap,
+.ccpw_table .supply,
+.ccpw_table span.name {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block
+}
+
+.ccpw_table span.symbol {
+    font-size: 11px
+}
+
+.ccpw_table .ccpw-changes,
+.ccpw_table .changes {
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    display: inline-block
+}
+
+.ccpw_table td.price {
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center
+}
+
+.ccpw_table td.ccpw-multi-price-text {
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.ccpw_table .ccpw-card-chart {
+    width: auto;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 48px;
+    max-width: 180px
+}
+
+.ccpw_table .ccpw-card-chart .ccpw-chart-container {
+    height: 100%;
+    width: auto
+}
+
+.ccpw_table.table.style-4 span.up {
+    color: green
+}
+
+.ccpw_table.table.style-4 span.down {
+    color: red
+}
+
+
+.ccpw_table.table.style-4> tbody>tr.price-plus>td:nth-of-type(3) {
+    background-color: #c6ffc8 !important;
+    color: #007504 !important
+}
+.ccpw_table.table.style-4> tbody>tr.price-minus>td:nth-of-type(3) {
+    background-color: #ffb0b0 !important;
+    color: #d30000 !important   
+}
+.ccpw_table.table.style-4> tbody>tr>td:nth-of-type(3) {
+line-height:25px;
+}
+
+.ccpw_table.table.style-4> tbody>tr.price-plus>td:nth-of-type(2) {
+    background-color: #c6ffc8 !important;
+    color: #007504 !important
+}
+.ccpw_table.table.style-4> tbody>tr.price-minus>td:nth-of-type(2) {
+    background-color: #ffb0b0 !important;
+    color: #d30000 !important   
+}
+
+
+.ccpwp_Widget .ccpw_table.table {
+    font-size: 13px;
+    padding: 0;
+    margin: 0
+}
+
+.ccpwp_Widget .ccpw_table.table>tbody>tr>td {
+    padding: 6px
+}
+
+.ccpwp_Widget .ccpw_table .ccpw_icon img {
+    height: 16px;
+    width: 16px !important;
+    vertical-align: top
+}
+
+.ccpwp_Widget .ccpw_table span.name {
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%
+}
+
+.ccpwp_Widget .ccpw_table .list-vol,
+.ccpwp_Widget .ccpw_table .market_cap,
+.ccpwp_Widget .ccpw_table .supply {
+    font-size: 12px
+}
+
+.ccpwp_Widget .ccpw_table span.symbol {
+    font-size: 10px;
+    position: absolute;
+    top: 12px;
+    left: 28px
+}
+
+.ccpwp_Widget .ccpw_table .ccpw-changes,
+.ccpwp_Widget .ccpw_table td.price {
+    font-size: 12px;
+    font-weight: 400
+}
+
+@media only screen and (max-width:640px) {
+    .ccpw_table.table {
+        font-size: 14px
+    }
+
+    .ccpw_table span.name {
+        font-size: 12px;
+        font-weight: 700;
+        width: 100%
+    }
+
+    .ccpw_table span.symbol {
+        font-size: 10px;
+        position: absolute;
+        top: 12px;
+        left: 34px
+    }
+
+    .ccpw-widget .ccpw_table.table tr th:nth-child(n+4),
+    .ccpw-widget .table tr td:nth-child(n+4) {
+        display: none !important
+    }
+
+    .ccpw_table.table>thead>tr>th:nth-child(n+3) {
+        border-right: 0
+    }
+
+    .ccpw_table .ccpw_icon {
+        width: 100%
+    }
+
+    .ccpw_table .ccpw_icon img {
+        max-width: 24px;
+        height: auto
+    }
+}

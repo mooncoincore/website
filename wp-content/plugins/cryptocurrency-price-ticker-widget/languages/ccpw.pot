@@ -1,0 +1,241 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cryptocurrency Price Ticker Widget PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-03 06:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/ccpw-shortcode.php:201
+msgid "Previous"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:202
+msgid "Next"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:203
+msgid "Loading..."
+msgstr ""
+
+#: includes/ccpw-shortcode.php:204
+msgid "No Coin Found"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:244
+msgid "You have not selected any currencies to display"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:250 includes/ccpw-shortcode.php:429
+msgid "You have not selected any currency to display"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:359
+msgid " 24H %"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:529 includes/ccpw-shortcode.php:544
+#: includes/ccpw-shortcode.php:553 includes/ccpw-shortcode.php:561
+#: includes/ccpw-shortcode.php:572 includes/layouts/table-widget.php:37
+msgid "Name"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:530 includes/ccpw-shortcode.php:545
+#: includes/ccpw-shortcode.php:554 includes/ccpw-shortcode.php:555
+#: includes/ccpw-shortcode.php:556 includes/ccpw-shortcode.php:562
+#: includes/ccpw-shortcode.php:573 includes/layouts/accordion-block.php:100
+#: includes/layouts/charts.php:130 includes/layouts/table-widget.php:38
+msgid "Price"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:533 includes/ccpw-shortcode.php:547
+#: includes/ccpw-shortcode.php:564 includes/ccpw-shortcode.php:575
+msgid "24H %"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:535 includes/layouts/table-widget.php:43
+msgid "Supply"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:536 includes/layouts/charts.php:131
+#: includes/layouts/table-widget.php:42
+msgid "Volume"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:537 includes/layouts/accordion-block.php:116
+#: includes/layouts/charts.php:149
+msgid "Market Cap"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:578
+msgid "Chart (7D)"
+msgstr ""
+
+#: includes/ccpw-shortcode.php:643
+msgid "BTC"
+msgstr ""
+
+#: includes/layouts/accordion-block.php:54
+#: includes/layouts/accordion-block.php:84 includes/layouts/block.php:56
+#: includes/layouts/block.php:98
+msgid "7D Chart"
+msgstr ""
+
+#: includes/layouts/accordion-block.php:97
+msgid "Symbol"
+msgstr ""
+
+#: includes/layouts/accordion-block.php:103
+#: includes/layouts/table-widget.php:39
+msgid "Changes 24h"
+msgstr ""
+
+#: includes/layouts/accordion-block.php:113
+msgid "Total Volume"
+msgstr ""
+
+#: includes/layouts/accordion-block.php:119
+msgid "Circulating Supply"
+msgstr ""
+
+#: includes/layouts/block.php:95 includes/layouts/block.php:166
+msgid "(24H Vol)"
+msgstr ""
+
+#: includes/layouts/block.php:124 includes/layouts/block.php:126
+#: includes/layouts/block.php:205 includes/layouts/block.php:207
+#: includes/layouts/card.php:22 includes/layouts/card.php:99
+#: includes/layouts/slider-widget.php:24 includes/layouts/slider-widget.php:51
+#: includes/layouts/slider-widget.php:103
+msgid "24H"
+msgstr ""
+
+#: includes/layouts/block.php:130
+msgid "24H Vol:"
+msgstr ""
+
+#: includes/layouts/block.php:213 includes/layouts/label.php:48
+msgid "USD"
+msgstr ""
+
+#: includes/layouts/block.php:214 includes/layouts/label.php:62
+msgid "EUR"
+msgstr ""
+
+#: includes/layouts/block.php:215
+msgid "GBP"
+msgstr ""
+
+#: includes/layouts/calculator.php:88
+msgid "1 Bitcoin"
+msgstr ""
+
+#: includes/layouts/card.php:39
+msgid "Supply "
+msgstr ""
+
+#: includes/layouts/card.php:41
+msgid "Volume "
+msgstr ""
+
+#: includes/layouts/card.php:43
+msgid "Market Cap "
+msgstr ""
+
+#: includes/layouts/card.php:47
+msgid "Change "
+msgstr ""
+
+#: includes/layouts/card.php:123
+msgid "USD "
+msgstr ""
+
+#: includes/layouts/card.php:136
+msgid "EUR "
+msgstr ""
+
+#: includes/layouts/card.php:147 includes/layouts/label.php:76
+msgid "GBP "
+msgstr ""
+
+#: includes/layouts/card.php:168 includes/layouts/charts.php:148
+msgid "Price "
+msgstr ""
+
+#: includes/layouts/changelly.php:8
+msgid "Changelly Widget source code is missing or incorrect"
+msgstr ""
+
+#: includes/layouts/charts.php:22
+msgid "Chart"
+msgstr ""
+
+#: includes/layouts/charts.php:22
+msgid "Chart by"
+msgstr ""
+
+#: includes/layouts/charts.php:118
+msgid "It is a new coin.API's have no available data"
+msgstr ""
+
+#: includes/layouts/charts.php:127
+msgid "From"
+msgstr ""
+
+#: includes/layouts/charts.php:128
+msgid "To"
+msgstr ""
+
+#: includes/layouts/charts.php:129
+msgid "Zoom"
+msgstr ""
+
+#: includes/layouts/news-ticker.php:57
+msgid "There is something wrong with Feed URL"
+msgstr ""
+
+#: includes/layouts/table-widget.php:36
+msgid "#"
+msgstr ""
+
+#: includes/layouts/table-widget.php:40
+msgid "Market CAP"
+msgstr ""
+
+#: includes/layouts/ticker.php:21
+msgid "24H : "
+msgstr ""
+
+#: includes/layouts/ticker.php:22
+msgid "Volume : "
+msgstr ""
+
+#: includes/layouts/ticker.php:23
+msgid "Marketcap : "
+msgstr ""
+
+#. Name of the plugin
+msgid "Cryptocurrency Widgets PRO"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Cryptocurrency widgets pro WordPress plugin displays current price & chart "
+"widgets of crypto coins - bitcoin, ethereum, ripple etc."
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.coolplugins.net"
+msgstr ""
